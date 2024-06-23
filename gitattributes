@@ -1,0 +1,9 @@
+# Set the desired languages
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+
+# Exclude documentation and other files from being counted in language statistics
+docs/* linguist-documentation
+vendor/* linguist-vendored
